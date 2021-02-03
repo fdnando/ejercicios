@@ -3,15 +3,16 @@ Algoritmo intervalos
 	Escribir  "Introduce tres números"
 	
 	Leer a
-	Leer b
 	Leer c
+	Leer b
 	
-	Si a<b y b<c Entonces
+	Si a<c y c<b Entonces
 		
 		Escribir "El segundo número pertenece en el intervalo"
 		
 	SiNo
-		Si a>b y b>c Entonces
+		Si a>c y c>b Entonces
+
 			Escribir "El segundo número pertenece en el intervalo"
 			
 		SiNo
