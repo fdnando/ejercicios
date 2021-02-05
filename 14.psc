@@ -4,7 +4,7 @@ Algoritmo vocales
 	
 	Leer palabra
 	
-	 Escribir SubCadena(palabra,i,i)
+	Escribir SubCadena(palabra,i,i)
 	
 	
 	
