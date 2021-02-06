@@ -5,11 +5,6 @@ Algoritmo indentando_frase
 	
 	Leer palabra
 	
-	Para i<-1 Hasta 4 
-		
-		secuencia_de_acciones
-		
-	Fin Para
 	
 	
 	
