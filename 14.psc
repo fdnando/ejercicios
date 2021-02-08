@@ -12,7 +12,7 @@ Algoritmo vocales
 	
 	Repetir
 		
-		c=0 //Para ver si no ha escrito vocales
+		c=0 //Para ver si no ha escrito vocales en toda la palabra
 		comprobador=SubCadena(palabra,i,i) 
 		
 		Si comprobador="a" o comprobador="e" Entonces

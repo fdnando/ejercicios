@@ -5,7 +5,20 @@ Algoritmo indentando_frase
 	
 	Leer palabra
 	
+	Repetir
+		
+		
+		palabra=Concatenar(palabra,____)
+		
+		i=i+1
+		
+
+		
+	Hasta Que i=5
 	
+
+	
+	Escribir palabra
 	
 	
 	
