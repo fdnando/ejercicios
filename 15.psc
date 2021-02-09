@@ -1,3 +1,11 @@
+Funcion repetición (reps,caracs)
+	Para i=0 Hasta reps Hacer
+		rst=Concatenar()
+	Fin Para
+	
+	
+	
+Fin Funcion
 
 Algoritmo indentando_frase
 	
@@ -5,20 +13,7 @@ Algoritmo indentando_frase
 	
 	Leer palabra
 	
-	Repetir
-		
-		
-		palabra=Concatenar(palabra,____)
-		
-		i=i+1
-		
-
-		
-	Hasta Que i=5
 	
-
-	
-	Escribir palabra
 	
 	
 	
