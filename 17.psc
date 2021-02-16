@@ -7,16 +7,14 @@ Algoritmo relleno_aleatorio
 	
 	Dimension matriz[filas,columnas]
 	
-	Para i=0 hasta filas Hacer
-		
-		Para e=0 hasta columnas Hacer
-			
-			matriz[filas,columnas]=Aleatorio(1,10)
-			
+	Para i=0 Hasta filas Hacer
+		Para  e=0 Hasta columnas Hacer
+			matriz[i,e]=Aleatorio(1,10)
 		FinPara
-		
-	FinPara
+	Fin Para
 	
-	Escribir matriz[1,1]
+	Escribir matriz[0,0]
+	
+	//¿Cómo darle valores aleatorios a unb vector?//
 	
 FinAlgoritmo

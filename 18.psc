@@ -6,7 +6,7 @@ Algoritmo ocultar_vocales
 	
 	rst=""
 	
-	logn=Longitud(frase)
+	long=Longitud(frase)
 	
 	Repetir
 		
