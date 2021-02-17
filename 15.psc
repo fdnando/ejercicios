@@ -4,18 +4,17 @@ Algoritmo indentando_frase
 	
 	Leer palabra
 	
-	espacios = ____    
+	espacios = "    "   
 	
-	resultado=Concatenar(palabra,espacios)
 	
 	Para i=0 Hasta 4  Hacer
 		
-		resultado=Concatenar(resultado,espacios)
+		palabra=Concatenar(palabra,espacios)
+		Escribir palabra Sin Saltar
 		
 	Fin Para
 	
 	
-	Escribir resultado
 	
 	
 FinAlgoritmo
