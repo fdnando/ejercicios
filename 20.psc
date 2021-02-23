@@ -1,21 +1,23 @@
-Algoritmo tablahastaladel3
+Funcion formatea()
+
+
+
+
+Algoritmo tablamultiplicar
 	
-	Dimension matriz[4,10]
+	Dimension matriz[10,10]
 	
-	Repetir
-		matriz[0,i]=1*i
+	Para i=0 hasta 9 hacer
 		
-		i=i+1
-	Hasta Que i=10
-	
-	Repetir
-		matriz[1,i]=2*i
+		Escribir ""
 		
-		i=i+1
-	Hasta Que i=10
-	
-	Escribir matriz[1,3]
-	
+		Para j=0 hasta 9 Hacer
+			matriz[i,j]=i*j
+			Escribir matriz[i,j] "      " sin saltar
+			
+		FinPara
+		
+	FinPara
 	
 	
 	
