@@ -13,14 +13,20 @@ Algoritmo función_formato
 	
 	
 	
-	Repetir
+	Para i=0 Hasta tamanomax  Hacer
 		
-		Escribir "maeta"
+		Si num<10 Entonces
+			Escribir num  "   "
+			
+		SiNo
+			Si num<100 Entonces
+				Escribir num "  "
+				
+			FinSi
+			
+		FinSi
 		
-		i=i+1
-		
-		
-	Hasta Que i=ConvertirATexto(tamanomax)
+	Fin Para
 
 	
 	
