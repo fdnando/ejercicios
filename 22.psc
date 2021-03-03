@@ -1,3 +1,24 @@
+Funcion funcionformateo ( num,tamañomax,salto)
+	
+	cad=ConvertirATexto(num)
+	
+	Para i=0 hasta tamañomax-Longitud(cad) Hacer
+		
+		Escribir " " Sin Saltar
+		
+	FinPara
+	
+	Escribir num Sin Saltar
+	
+	Si salto
+		Escribir ""
+	FinSi
+	
+Fin Funcion
+
+
+
+
 Algoritmo función_formato
 	
 	
@@ -8,27 +29,12 @@ Algoritmo función_formato
 	//y ocupen todos el mismo espacio en una columna de valores.
 	
 	
-	Leer num
-	Leer tamanomax
-	
-	
-	
-	Para i=0 Hasta tamanomax  Hacer
-		
-		Si num<10 Entonces
-			Escribir num  "   "
-			
-		SiNo
-			Si num<100 Entonces
-				Escribir num "  "
-				
-			FinSi
-			
-		FinSi
-		
-	Fin Para
-
-	
+	funcionformateo(100,5,Falso)
+	funcionformateo(2,5,Verdadero)
+	funcionformateo(334,5,Falso)
+	funcionformateo(4,5,Verdadero)
+	funcionformateo(3334,5,Falso)
+	funcionformateo(34,5,Verdadero)
 	
 	
 FinAlgoritmo

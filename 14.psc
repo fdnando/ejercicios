@@ -44,7 +44,7 @@ Algoritmo vocales
 	SiNo
 		
 		Escribir "cantidad de a: " vector[0]
-		Escribir "cantidad de b: " vector[1]
+		Escribir "cantidad de e: " vector[1]
 		
 	Fin Si
 	

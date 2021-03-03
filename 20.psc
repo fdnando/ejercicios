@@ -1,8 +1,6 @@
-Funcion formatea()
 
 
-
-
+//falta poner la función formateo
 Algoritmo tablamultiplicar
 	
 	Dimension matriz[10,10]
